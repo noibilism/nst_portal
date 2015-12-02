@@ -1,0 +1,2354 @@
+2015-12-02 13:47:11 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(227): CakePlugin::path('DebugKit')
+#1 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#8 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-12-02 13:47:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 13:48:16 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /nst_portal/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-02 13:51:31 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /nst_portal/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-02 13:51:36 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-02 14:00:10 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/nst_portal/app/Controller/UsersController.php, line 55]
+2015-12-02 14:00:10 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /nst_portal/users/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 55, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 55, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:29:13 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/nst_portal/lib/Cake/View/Helper/HtmlHelper.php, line 425]
+2015-12-02 14:29:13 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 425)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:30:38 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/nst_portal/lib/Cake/View/Helper/HtmlHelper.php, line 425]
+2015-12-02 14:30:38 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 425)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:31:40 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/nst_portal/lib/Cake/View/Helper/HtmlHelper.php, line 425]
+2015-12-02 14:31:40 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 425)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:36:14 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/nst_portal/lib/Cake/View/Helper/HtmlHelper.php, line 425]
+2015-12-02 14:36:14 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 425)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:36:18 Error: Fatal Error (1): Unsupported operand types in [/Applications/MAMP/htdocs/nst_portal/lib/Cake/View/Helper/HtmlHelper.php, line 425]
+2015-12-02 14:36:18 Error: [FatalErrorException] Unsupported operand types
+Request URL: /nst_portal/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/Applications/M...', 425)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/Applications/M...', 425, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 14:43:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:43:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:43:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:43:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:43:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/index.html?lang=en
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 14:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:08 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/index.html?lang=en
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class FormWizards.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'FormWizards.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/form_wizards.html?lang=en
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:14:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-1.8.2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/less-1.3.3.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/modernizr.custom.76094.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/excanvas/excanvas.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/json2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/color/jquery-miniColors/jquery.miniColors.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/select2/select2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/common.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery-slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/holder/holder.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/twitter.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/system/jquery.cookie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/themer.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/index.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/sparkline/jquery.sparkline.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.tooltip.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.pie.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.selection.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/charts/flot/jquery.flot.orderBars.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/charts.helper.js?1382104445=
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/jquery.ba-resize.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-select/bootstrap-select.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-switch/static/js/bootstrap-switch.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/bootstrap-fileupload.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/jasny-bootstrap/js/jasny-bootstrap.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootbox.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/demo/layout.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/bootstrap-wysihtml5-0.0.2.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/bootstrap/extend/bootstrap-wysihtml5/js/wysihtml5-0.3.0_rc2.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:16:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/js/common/theme/scripts/plugins/other/google-code-prettify/prettify.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-02 15:52:00 Error: [MissingControllerException] Controller class DocumentationController could not be found.
+Exception Attributes: array (
+  'class' => 'DocumentationController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/documentation/index.html?lang=en
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
