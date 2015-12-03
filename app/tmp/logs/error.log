@@ -2352,3 +2352,22 @@ Request URL: /nst_portal/documentation/index.html?lang=en
 Stack Trace:
 #0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-12-02 18:17:56 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/nst_portal/app/View/Layouts/default.ctp, line 67]
+2015-12-02 18:17:56 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /nst_portal/dashboard
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#2 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 67, Array)
+#3 /Applications/MAMP/htdocs/nst_portal/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-02 20:12:45 Error: [MissingControllerException] Controller class Finances.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Finances.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /nst_portal/finances.html?lang=en
+Stack Trace:
+#0 /Applications/MAMP/htdocs/nst_portal/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

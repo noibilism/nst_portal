@@ -1,7 +1,7 @@
-<div id="menu" class="hidden-sm hidden-print">
+<div id="menu" class="hidden-sm hidden-print" height="1020px">
     <div id="menuInner">
         <!-- Scrollable menu wrapper with Maximum height -->
-        <div class="slim-scroll" data-scroll-height="420px">
+        <div class="slim-scroll" data-scroll-height="1020px">
 
             <div id="search">
                 <input type="text" placeholder="Quick search ..." />
@@ -65,7 +65,6 @@
                 <li class="glyphicons address_book"><a href="bookings.html?lang=en"><span>Bookings</span></a></li>
             </ul>
         </div>
-
     </div>
     <!-- // Nice Scroll Wrapper END -->
 

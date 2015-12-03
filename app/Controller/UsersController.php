@@ -26,7 +26,10 @@ class UsersController extends AppController {
 		// if we get the post information, try to authenticate
 		if ($this->request->is('post')) {
 			if ($this->Auth->login()) {
-				$this->Session->setFlash(__('Welcome, '. $this->Auth->user('username')));
+                $this->request->data['User']['id'] = $this->Auth->user('id');
+                $this->request->data['User']['last_login'] = date('Y-m-d H:i:s');
+                $this->User->save($this->request->data);
+                $this->Session->setFlash(__('Welcome, '. $this->Auth->user('username')));
 				$this->redirect($this->Auth->redirectUrl());
 			} else {
 				$this->Session->setFlash(__('Invalid username or password'));
@@ -47,6 +50,9 @@ class UsersController extends AppController {
 		$this->set(compact('users'));
     }
 
+    public function dashboard(){
+
+    }
 
     public function add() {
         $roles = $this->Role->find('list');

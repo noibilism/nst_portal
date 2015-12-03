@@ -7,6 +7,9 @@
 <table class="dynamicTable table table-striped table-bordered table-primary table-condensed colVis">
 <thead>
 <tr>
+    <th><div class="DTTT btn-group"><a class="btn btn-primary DTTT_button_copy">Add A User</a></div></th>
+</tr>
+<tr>
     <th>S/N</th>
     <th>Username</th>
     <th>E-Mail</th>
@@ -16,13 +19,16 @@
 </tr>
 </thead>
 <tbody>
+<?php $i=1; foreach($users as $user){ ?>
 <tr class="gradeX">
-    <td>Trident</td>
-    <td>Internet Explorer 4.0</td>
-    <td>Win 95+</td>
-    <td class="center">4</td>
-    <td class="center">X</td>
+    <td><?php echo $i++; ?></td>
+    <td><?php echo $user['User']['username']; ?></td>
+    <td><?php echo $user['User']['email']; ?></td>
+    <td class="center"><?php echo $user['User']['role_id']; ?></td>
+    <td class="center"><?php echo $user['User']['last_login']; ?></td>
+    <td></td>
 </tr>
+<?php } ?>
 </tbody>
 </table>
 </div>

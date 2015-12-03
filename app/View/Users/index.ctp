@@ -1,1 +1,1 @@
-<?php echo $this->element('navigations/top_right_menu'); ?>
+<?php echo $this->element('users/users_list'); ?>

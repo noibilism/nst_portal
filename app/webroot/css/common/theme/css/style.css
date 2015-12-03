@@ -4704,7 +4704,6 @@ hr.separator {
 }
 #wrapper {
   position: relative;
-  overflow: hidden;
   float: left;
   width: 100%;
 }
@@ -5366,7 +5365,6 @@ hr.separator {
   position: absolute;
   left: 0;
   top: 0;
-  overflow: hidden;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
 }

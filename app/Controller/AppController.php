@@ -52,10 +52,13 @@ class AppController extends Controller {
         $user_id = $this->Auth->user('id');
         if(isset($user_id)){
             $logged_user = $user_id;
+            $role = $this->Auth->user('role_id');
         }else{
             $logged_user = 'guest';
+            $role = null;
         }
         $this->set('logged_user', $logged_user);
+        $this->set('role', $role);
     }
 
     public function isAuthorized($user) {

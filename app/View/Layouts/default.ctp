@@ -35,17 +35,7 @@
                        'common/theme/scripts/plugins/other/json2'
                     ); ?>
     <?php echo $this->Html->script($js); ?>
-    <!-- Google Analytics -->
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36057737-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+
 </head>
 <body>
 
@@ -130,8 +120,16 @@
                        'common/theme/scripts/demo/layout',
                        'common/theme/scripts/plugins/other/google-code-prettify/prettify',
                        'common/theme/scripts/plugins/notifications/Gritter/js/jquery.gritter.min',
-                       'common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy'
-                    ); ?>
+                       'common/theme/scripts/plugins/notifications/notyfy/jquery.notyfy',
+                       'common/theme/scripts/plugins/other/jquery.ba-resize',
+                       'common/theme/scripts/plugins/forms/pixelmatrix-uniform/jquery.uniform.min',
+                       'common/theme/scripts/plugins/tables/DataTables/js/jquery.dataTables',
+                       'common/theme/scripts/plugins/tables/DataTables/extras/TableTools/media/js/TableTools',
+                       'common/theme/scripts/plugins/tables/DataTables/extras/TableTools/media/js/ZeroClipboard',
+                       'common/theme/scripts/plugins/tables/DataTables/extras/TableTools/media/js/ZeroClipboard',
+                       'common/theme/scripts/plugins/tables/DataTables/extras/ColVis/media/js/ColVis',
+                       'common/theme/scripts/plugins/tables/DataTables/js/DT_bootstrap',
+                       'common/theme/scripts/plugins/tables/DataTables/js/datatables.init'); ?>
 <?php echo $this->Html->script($js_); ?>
 <script>Holder.add_theme("dark", {background:"#000", foreground:"#aaa", size:9})</script>
 <!-- Colors -->
