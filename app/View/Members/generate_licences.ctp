@@ -1,0 +1,1 @@
+<?php echo $this->element('members/generate_licence_form'); ?>

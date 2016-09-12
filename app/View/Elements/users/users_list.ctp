@@ -7,7 +7,9 @@
 <table class="dynamicTable table table-striped table-bordered table-primary table-condensed colVis">
 <thead>
 <tr>
-    <th><div class="DTTT btn-group"><a class="btn btn-primary DTTT_button_copy">Add A User</a></div></th>
+    <th><?php echo $this->Html->link('Add Super Admin', array('controller'=>'users','action'=>'add_super_admin'),array('class'=>'btn btn-primary DTTT_button_copy'));?></th>
+    <th><?php echo $this->Html->link('Add Zonal Admin', array('controller'=>'users','action'=>'add_zone_admin'),array('class'=>'btn btn-primary DTTT_button_copy'));?></th>
+    <th><?php echo $this->Html->link('Add Branch Admin', array('controller'=>'users','action'=>'add_branch_admin'),array('class'=>'btn btn-primary DTTT_button_copy'));?></th>
 </tr>
 <tr>
     <th>S/N</th>
@@ -26,7 +28,7 @@
     <td><?php echo $user['User']['email']; ?></td>
     <td class="center"><?php echo $user['User']['role_id']; ?></td>
     <td class="center"><?php echo $user['User']['last_login']; ?></td>
-    <td></td>
+    <td><?php echo $this->Html->link('Update User', array('controller'=>'users','action'=>'update_user',$user['User']['id'],$user['User']['role_id']),array('class'=>'btn btn-primary DTTT_button_copy'));?></td>
 </tr>
 <?php } ?>
 </tbody>

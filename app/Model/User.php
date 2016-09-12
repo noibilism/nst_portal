@@ -5,7 +5,7 @@ class User extends AppModel {
 	
 	public $avatarUploadDir = 'img/avatars';
     
-	public $validate = array(
+/*	public $validate = array(
         'username' => array(
             'nonEmpty' => array(
                 'rule' => array('notEmpty'),
@@ -13,7 +13,7 @@ class User extends AppModel {
 				'allowEmpty' => false
             ),
 			'between' => array( 
-				'rule' => array('between', 5, 15), 
+				'rule' => array('between', 5, 50),
 				'required' => true, 
 				'message' => 'Usernames must be between 5 to 15 characters'
 			),
@@ -49,7 +49,7 @@ class User extends AppModel {
         ),
 		
 		'email' => array(
-			'required' => array(
+			/*'required' => array(
 				'rule' => array('email', true),    
 				'message' => 'Please provide a valid email address.'    
 			),
@@ -62,15 +62,6 @@ class User extends AppModel {
 				'message' => 'Usernames must be between 6 to 60 characters'
 			)
 		),
-        'role' => array(
-            'valid' => array(
-                'rule' => array('inList', array('king', 'queen', 'bishop', 'rook', 'knight', 'pawn')),
-                'message' => 'Please enter a valid role',
-                'allowEmpty' => false
-            )
-        ),
-		
-		
 		'password_update' => array(
 			'min_length' => array(
 				'rule' => array('minLength', '6'),   
@@ -88,7 +79,7 @@ class User extends AppModel {
         )
 
 		
-    );
+    );*/
 	
 		/**
 	 * Before isUniqueUsername
